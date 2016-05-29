@@ -1,3 +1,4 @@
+#branch testing
 #baseurl = "http://localhost:1313/"
 #Use the baseurl below when generating site in /public folder
 baseurl = "http://EdgarAllenPoe.github.io/audio-bible"
@@ -101,6 +102,6 @@ openTheDoor = "The Door is open!"
 	# Contact section
 	[params.contact]
 		headline = "Would You Like To Give?"
-		description = "Please contact us if you would like more information or click on the link below to give."
-		phone = "+021 292 240"
-		email = "paraguay.info@sim.org"
+		description = "Please contact us if you would like more information."
+		phone = "+595 021 292 240"
+		email = "tom.stout@sim.org"
