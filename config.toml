@@ -1,6 +1,9 @@
 #baseurl = "http://localhost:1313/"
 #Use the baseurl below when generating site in /public folder
-baseurl = "./"
+baseurl = "http://EdgarAllenPoe.github.io/audio-bible"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "dist"
 languageCode = "en-us"
 title = "Audio Bibles For Paraguay"
 theme = "hugo-creative-theme"
