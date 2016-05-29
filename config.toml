@@ -1,0 +1,103 @@
+#baseurl = "http://localhost:1313/"
+#Use the baseurl below when generating site in /public folder
+baseurl = "./"
+languageCode = "en-us"
+title = "Audio Bibles For Paraguay"
+theme = "hugo-creative-theme"
+openTheDoor = "The Door is open!"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Audio Bibles For Paraguay"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Prayer Needs"
+			portfolio = "Distributions"
+			contact   = "Donate"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "So All May Hear"
+		subtitle   = "Faith comes by hearing, and hearing by the Word of God"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Please Pray"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Changed Hearts"
+            description = "The thing we want to see more than anything else are people who trust in Jesus for their salvation and live to follow Him."
+
+        [[params.services.list]]
+			icon = "fa-ship"
+			title = "Shipments"
+			description = "Completed paperwork for shipment, Safe arrival of AudioBibles from China, No problems with Paraguayan Customs"
+
+		[[params.services.list]]
+            icon = "fa-users"
+            title = "Distribution Teams"
+            description = "Pray for the saftey of the Paraguayan volunteers who travel many miles to the most remote parts of their country to give AudioBibles to those who need them most "
+
+        [[params.services.list]]
+            icon = "fa-smile-o"
+            title = "Thanksgiving"
+            description = "Praise the Lord for all those who have prayed, given, and donated their time to this ministry"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Distributions Are Happening Year Round"
+
+		[params.aside.button]
+			text = "Give now"
+			link = "https://www.simusa.org/get-involved/give/?DSG=project&FNme=&LNme=&FundIDM=&SearchName=&FundIDP=91039&CountryID=&searchme=searchP"
+
+	# Contact section
+	[params.contact]
+		headline = "Would You Like To Give?"
+		description = "Please contact us if you would like more information or click on the link below to give."
+		phone = "+021 292 240"
+		email = "paraguay.info@sim.org"
