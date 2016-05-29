@@ -1,4 +1,4 @@
-#branch testing
+#branch testing2
 #baseurl = "http://localhost:1313/"
 #Use the baseurl below when generating site in /public folder
 baseurl = "http://EdgarAllenPoe.github.io/audio-bible"
