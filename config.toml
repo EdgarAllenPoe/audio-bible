@@ -1,5 +1,4 @@
-#branch testing2
-#baseurl = "http://localhost:1313/"
+
 #Use the baseurl below when generating site in /public folder
 #baseurl = "http://EdgarAllenPoe.github.io/audio-bible"
 baseurl = "http://audiobible.audiobibliadata.com/"
@@ -55,9 +54,9 @@ openTheDoor = "The Door is open!"
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		headline    = "For Those Who Listen To Know"
+		description = "Our passion comes from Christ's love for us.  That love inspires us to tell others about Him.  We believe everyone should be able to know about His love in their own language and in a way that is they can understand.  Audio Bibles For Paraguay provides the recorded Scriptures in the Guarani Language, so that the families of rural Paraguay can listen to the Bible and know of Jesus' love for them."
+		buttonText  = "Join us in our passion!"
 
 
 	# Service section
