@@ -86,7 +86,7 @@ openTheDoor = "The Door is open!"
 
     # Portfolio modals
 	[params.portfolio.modal]
-        client = "Client"
+        media = "Media"
         date = "Date"
         category = "Category"
         buttonText = "Close"
