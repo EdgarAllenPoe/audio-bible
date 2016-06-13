@@ -88,7 +88,7 @@ openTheDoor = "The Door is open!"
 	[params.portfolio.modal]
         media = "Media"
         date = "Date"
-        category = "Category"
+        distCount = "Bibles Distributed"
         buttonText = "Close"
 
     # Aside section
